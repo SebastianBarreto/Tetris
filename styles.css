@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+.container {
+  display: flex;
+}
+.grid {
+  width: 20rem;
+  height: 40rem;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: yellow;
+}
+.grid div {
+  height: 2rem;
+  width: 2rem;
+}
+
+.tetromino {
+  background-color: blue;
+}
+
+.mini-grid {
+  margin-left: 5rem;
+  width: 8rem;
+  height: 8rem;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: yellow;
+}
+.mini-grid div {
+  height: 2rem;
+  width: 2rem;
+}
